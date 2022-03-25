@@ -203,9 +203,9 @@ const Cart = () => {
         <Bottom>
           <Info>
             {cart.products.map((product) => (
-              <Product style={{margin:"10px 0px"}}>
+              <Product>
                 <ProductDetail>
-                  <Image src={product.img} />
+                  <Image src={product.img}   style={{margin:"10px 0px"}}/>
                   <Details>
                     <ProductName>
                       <b>Product:</b> {product.title}
