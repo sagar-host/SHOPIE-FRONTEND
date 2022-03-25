@@ -203,7 +203,7 @@ const Cart = () => {
         <Bottom>
           <Info>
             {cart.products.map((product) => (
-              <Product>
+              <Product style={{margin:"10px 0px"}}>
                 <ProductDetail>
                   <Image src={product.img} />
                   <Details>
